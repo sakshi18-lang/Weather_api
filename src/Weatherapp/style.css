@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.app{
+    background-image: url('./autumn.jpg');
+    background-size: cover;
+    background-position: top;
+    transition: 0.4 ease-out;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+main{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.2));
+    padding: 25px;
+}
+.search-box{
+    width: 100%;
+    margin: 0 0 75px;
+    
+}
+.search-box .search-bar{
+    background-color: transparent;
+display: block;
+width: 100%;
+padding: 15px;
+height: 90px;
+appearance: none;
+border: none;
+outline: none;
+box-shadow: 0px 5px rgba(0,0,0,0.2);
+color: rgb(0,0,0);
+font-size: 40px;
+border-radius: 0px 0px 16px 16px;
+transition: 0.4s ease;
+margin-top: -25px;
+margin-left: 15px;
+
+}
+.location-box .location{
+    color: rgb(14, 13, 13);
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    font-style: bold;
+}
+.location-box .date{
+    color: #FFF;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+    font-size: 40px;
+}
+.weather-box .temp{
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 16px 20px;
+    color: rgb(251, 253, 255);
+    font-size: 102px;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+    box-shadow: 8px 8px  rgba(50,50,70,0.5);
+    text-align: center;
+}
+.weather-box .weather{
+    position: relative;
+    color: rgb(251, 253, 255);
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+    font-size: 52px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
